@@ -17,6 +17,10 @@ const Faq = () => {
       answer: "Yes, your team members will need a cryptocurrency wallet that supports the blockchain you're using for payments. For those who don't have a wallet yet, we offer a simple onboarding process that guides them through wallet creation and security best practices."
     },
     {
+      question: "What type of wallets does Coinomad use?",
+      answer: "Coinomad wallets are powered by Pimlico smart accounts and use paymasters, meaning users never need native currency like ETH to send transactions. This eliminates the common friction of needing gas tokens for every transaction, making the payment process seamless for both senders and receivers."
+    },
+    {
       question: "Is Coinomad compliant?",
       answer: "Coinomad provides the tools for compliant crypto payroll, including comprehensive reporting for accounting and tax purposes. However, compliance requirements vary by jurisdiction, so we recommend consulting with your legal and tax advisors regarding your specific situation."
     },
