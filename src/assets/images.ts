@@ -1,8 +1,8 @@
-
 // This file contains placeholder URLs for images until real assets are available
 
 export const images = {
   // Chain logos
+  base: "https://cryptologos.cc/logos/base-base-logo.png",
   ethereum: "https://cryptologos.cc/logos/ethereum-eth-logo.png",
   solana: "https://cryptologos.cc/logos/solana-sol-logo.png",
   polygon: "https://cryptologos.cc/logos/polygon-matic-logo.png", 

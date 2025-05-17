@@ -5,12 +5,9 @@ import { images } from '@/assets/images';
 
 const SupportedAssets = () => {
   const chains = [
-    { name: 'Ethereum', logo: images.ethereum },
-    { name: 'Solana', logo: images.solana },
+    { name: 'Base', logo: images.base },
     { name: 'Polygon', logo: images.polygon },
-    { name: 'Stellar', logo: images.stellar },
     { name: 'Celo', logo: images.celo },
-    { name: 'BSC', logo: images.bsc },
   ];
 
   const stablecoins = [
@@ -32,7 +29,7 @@ const SupportedAssets = () => {
         <div className="space-y-12">
           <div>
             <h3 className="text-xl font-semibold mb-6 text-center">Supported Blockchains</h3>
-            <div className="grid grid-cols-3 md:grid-cols-6 gap-6 justify-items-center">
+            <div className="grid grid-cols-3 gap-6 justify-items-center max-w-md mx-auto">
               {chains.map((chain) => (
                 <ChainLogo key={chain.name} name={chain.name} logo={chain.logo} />
               ))}
