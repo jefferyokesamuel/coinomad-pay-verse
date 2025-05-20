@@ -4,8 +4,11 @@ import React from 'react';
 const Logo: React.FC = () => {
   return (
     <div className="flex items-center">
-      <span className="text-coinomad-primary font-bold text-2xl tracking-tight">Coin</span>
-      <span className="text-coinomad-text font-bold text-2xl tracking-tight">omad</span>
+      <img 
+        src="/lovable-uploads/c1267ce2-835b-4019-9983-634d3258f7dc.png" 
+        alt="Coinomad Logo" 
+        className="h-8"
+      />
     </div>
   );
 };
