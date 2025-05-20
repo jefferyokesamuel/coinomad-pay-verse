@@ -8,6 +8,7 @@ const SupportedAssets = () => {
     { name: 'Base', logo: images.base },
     { name: 'Polygon', logo: images.polygon },
     { name: 'Celo', logo: images.celo },
+    { name: 'Ethereum', logo: images.ethereum },
   ];
 
   const stablecoins = [
@@ -29,7 +30,7 @@ const SupportedAssets = () => {
         <div className="space-y-12">
           <div>
             <h3 className="text-xl font-semibold mb-6 text-center">Supported Blockchains</h3>
-            <div className="grid grid-cols-3 gap-6 justify-items-center max-w-md mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center max-w-2xl mx-auto">
               {chains.map((chain) => (
                 <ChainLogo key={chain.name} name={chain.name} logo={chain.logo} />
               ))}

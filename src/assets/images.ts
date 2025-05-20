@@ -3,12 +3,12 @@
 
 export const images = {
   // Chain logos
-  base: "https://cryptologos.cc/logos/base-base-logo.png",
-  ethereum: "https://cryptologos.cc/logos/ethereum-eth-logo.png",
+  base: "/lovable-uploads/1afb3ff1-9117-45c9-a255-052d03d400ad.png",
+  ethereum: "/lovable-uploads/787a06e5-9a84-4f6c-bf65-c35aed92d144.png",
   solana: "https://cryptologos.cc/logos/solana-sol-logo.png",
-  polygon: "https://cryptologos.cc/logos/polygon-matic-logo.png", 
+  polygon: "/lovable-uploads/a44ace7b-c94e-4f0c-8d39-9f73b6bbce56.png", 
   stellar: "https://cryptologos.cc/logos/stellar-xlm-logo.png",
-  celo: "https://cryptologos.cc/logos/celo-celo-logo.png",
+  celo: "/lovable-uploads/3fb59967-6f39-4dc8-84a5-3d0b4d61f28f.png",
   bsc: "https://cryptologos.cc/logos/bnb-bnb-logo.png",
   usdc: "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
   usdt: "https://cryptologos.cc/logos/tether-usdt-logo.png",

@@ -1,7 +1,10 @@
+
 import React from 'react';
-import { images } from '@/assets/images';
-import { LockKeyhole, Eye, ClipboardCheck } from 'lucide-react';
+
 const Security = () => {
-  return;
+  return (
+    <div>Security Section</div>
+  );
 };
+
 export default Security;
