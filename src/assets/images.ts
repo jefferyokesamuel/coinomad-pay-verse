@@ -1,3 +1,4 @@
+
 // This file contains placeholder URLs for images until real assets are available
 
 export const images = {
@@ -12,8 +13,8 @@ export const images = {
   usdc: "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
   usdt: "https://cryptologos.cc/logos/tether-usdt-logo.png",
   
-  // Placeholder illustrations
-  heroIllustration: "https://placehold.co/600x400/1A1A1A/FFFFFF?text=Crypto+Payroll",
+  // Illustrations
+  heroIllustration: "/lovable-uploads/1abc0f6b-b6ed-4571-bce7-c2fe458ec4a8.png",
   securityIllustration: "https://placehold.co/400x300/1A1A1A/FFFFFF?text=Security+Shield",
   
   // Partner logos
