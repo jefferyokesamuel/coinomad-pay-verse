@@ -10,8 +10,8 @@ export const images = {
   stellar: "https://cryptologos.cc/logos/stellar-xlm-logo.png",
   celo: "/lovable-uploads/3fb59967-6f39-4dc8-84a5-3d0b4d61f28f.png",
   bsc: "https://cryptologos.cc/logos/bnb-bnb-logo.png",
-  usdc: "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
-  usdt: "https://cryptologos.cc/logos/tether-usdt-logo.png",
+  usdc: "/lovable-uploads/86c13a5d-da21-4354-9e1e-dbba38f86b68.png",
+  usdt: "/lovable-uploads/859a90db-8d88-4e88-a3be-9d0404f7b5ae.png",
   
   // Illustrations
   heroIllustration: "/lovable-uploads/1abc0f6b-b6ed-4571-bce7-c2fe458ec4a8.png",
