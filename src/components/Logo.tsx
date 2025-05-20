@@ -7,7 +7,7 @@ const Logo: React.FC = () => {
       <img 
         src="/lovable-uploads/c1267ce2-835b-4019-9983-634d3258f7dc.png" 
         alt="Coinomad Logo" 
-        className="h-8"
+        className="h-24"
       />
     </div>
   );
