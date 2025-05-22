@@ -36,29 +36,37 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <ul className="flex space-x-8">
               <li>
-                <a href="#" className="text-coinomad-text hover:text-coinomad-primary transition-colors">
+                <a href="#hero" className="text-coinomad-text hover:text-coinomad-primary transition-colors">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#how-it-works" className="text-coinomad-text hover:text-coinomad-primary transition-colors">
-                  How it Works
+                <a href="#chains" className="text-coinomad-text hover:text-coinomad-primary transition-colors">
+                  Supported Chains
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="text-coinomad-text hover:text-coinomad-primary transition-colors">
-                  Pricing
+                <a href="#why" className="text-coinomad-text hover:text-coinomad-primary transition-colors">
+                  Why Us?
                 </a>
               </li>
               <li>
-                <a href="#partners" className="text-coinomad-text hover:text-coinomad-primary transition-colors">
-                  Partners
+                <a href="#faq" className="text-coinomad-text hover:text-coinomad-primary transition-colors">
+                  FAQ
                 </a>
               </li>
             </ul>
             
-            <Button className="bg-coinomad-primary hover:bg-opacity-90 text-black font-medium neon-glow-primary">
-              Login
+            <Button 
+              onClick={() => {
+                const element = document.getElementById('waitlist');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+              className="bg-coinomad-primary hover:bg-coinomad-primary text-black font-medium neon-glow-primary hover:scale-105 transition-transform duration-200"
+            >
+              Waitlist
             </Button>
           </div>
           
@@ -81,7 +89,7 @@ const Navbar = () => {
             <ul className="space-y-6">
               <li>
                 <a 
-                  href="#" 
+                  href="#hero" 
                   className="text-coinomad-text hover:text-coinomad-primary text-lg block"
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -90,37 +98,43 @@ const Navbar = () => {
               </li>
               <li>
                 <a 
-                  href="#how-it-works" 
+                  href="#chains" 
                   className="text-coinomad-text hover:text-coinomad-primary text-lg block"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  How it Works
+                  Supported Chains
                 </a>
               </li>
               <li>
                 <a 
-                  href="#pricing" 
+                  href="#why" 
                   className="text-coinomad-text hover:text-coinomad-primary text-lg block"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Pricing
+                  Why Us?
                 </a>
               </li>
               <li>
                 <a 
-                  href="#partners" 
+                  href="#faq" 
                   className="text-coinomad-text hover:text-coinomad-primary text-lg block"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Partners
+                  FAQ
                 </a>
               </li>
               <li className="pt-2">
                 <Button 
-                  className="bg-coinomad-primary hover:bg-opacity-90 text-black font-medium w-full neon-glow-primary"
-                  onClick={() => setIsMenuOpen(false)}
+                  className="bg-coinomad-primary hover:bg-coinomad-primary text-black font-medium w-full neon-glow-primary hover:scale-105 transition-transform duration-200"
+                  onClick={() => {
+                    setIsMenuOpen(false);
+                    const element = document.getElementById('waitlist');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
                 >
-                  Login
+                  Waitlist
                 </Button>
               </li>
             </ul>

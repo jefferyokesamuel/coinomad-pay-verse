@@ -74,7 +74,7 @@ const PayrollWidget: React.FC = () => {
 
         <Button 
           onClick={calculateEstimate} 
-          className="w-full bg-coinomad-primary hover:bg-opacity-90 text-black font-medium neon-glow-primary"
+          className="w-full bg-coinomad-primary hover:bg-coinomad-primary text-black font-medium neon-glow-primary hover:scale-105 transition-transform duration-200"
         >
           Estimate Monthly Payout
         </Button>

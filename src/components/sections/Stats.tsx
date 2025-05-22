@@ -5,20 +5,20 @@ import StatCard from '../StatCard';
 const Stats = () => {
   const stats = [
     {
-      value: '400+',
-      label: 'Projects Supported'
+      value: '4',
+      label: 'EVM Chains Supported'
     },
     {
-      value: '$12M+',
-      label: 'Total Payouts Processed'
+      value: '3',
+      label: 'Stablecoins Supported'
     },
     {
-      value: '15+',
-      label: 'Supported Blockchains'
+      value: '0',
+      label: 'Native Tokens Needed'
     },
     {
       value: '0%',
-      label: 'Conversion/FX Fees'
+      label: 'Hidden FX/Conversion Fees'
     }
   ];
 

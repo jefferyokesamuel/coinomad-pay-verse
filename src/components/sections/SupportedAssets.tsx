@@ -18,7 +18,7 @@ const SupportedAssets = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black to-coinomad-background" id="how-it-works">
+    <section id="chains" className="py-20 bg-gradient-to-b from-black to-coinomad-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Seamless Payments Across Chains</h2>

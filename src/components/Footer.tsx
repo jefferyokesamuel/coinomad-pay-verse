@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Logo from './Logo';
+import { Twitter, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,37 +15,30 @@ const Footer = () => {
             <p className="mt-4 text-coinomad-textGray max-w-md">
               Simplifying crypto payroll for global teams. Automated, fast, and borderless salary payments in stablecoins.
             </p>
+            <div className="mt-8 flex space-x-4">
+              <a 
+                href="https://twitter.com/coinomad_pay" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-coinomad-textGray hover:text-coinomad-primary transition-colors"
+              >
+                <Twitter size={24} />
+              </a>
+              <a 
+                href="https://linkedin.com/company/coinomad" 
+
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-coinomad-textGray hover:text-coinomad-primary transition-colors"
+              >
+                <Linkedin size={24} />
+              </a>
+            </div>
             <p className="mt-4 text-coinomad-textGray">
               &copy; {currentYear} Coinomad. All rights reserved.
             </p>
           </div>
           
-          <div>
-            <h3 className="text-coinomad-text font-semibold mb-4">Product</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-coinomad-textGray hover:text-coinomad-primary transition-colors">Features</a></li>
-              <li><a href="#" className="text-coinomad-textGray hover:text-coinomad-primary transition-colors">Pricing</a></li>
-              <li><a href="#" className="text-coinomad-textGray hover:text-coinomad-primary transition-colors">Dashboard</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-coinomad-text font-semibold mb-4">Help</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-coinomad-textGray hover:text-coinomad-primary transition-colors">FAQs</a></li>
-              <li><a href="#" className="text-coinomad-textGray hover:text-coinomad-primary transition-colors">Documentation</a></li>
-              <li><a href="#" className="text-coinomad-textGray hover:text-coinomad-primary transition-colors">Support</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-coinomad-text font-semibold mb-4">Legal</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-coinomad-textGray hover:text-coinomad-primary transition-colors">Terms</a></li>
-              <li><a href="#" className="text-coinomad-textGray hover:text-coinomad-primary transition-colors">Privacy</a></li>
-              <li><a href="#" className="text-coinomad-textGray hover:text-coinomad-primary transition-colors">Compliance</a></li>
-            </ul>
-          </div>
         </div>
       </div>
     </footer>

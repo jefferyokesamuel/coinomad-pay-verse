@@ -8,19 +8,8 @@ const Trust = () => {
     title: "CTO",
     company: "BlockDevs Inc",
     avatar: images.avatar1
-  }, {
-    quote: "As a DAO, we needed a crypto-native payroll solution. Coinomad perfectly fits our needs with multi-chain support and automated payments.",
-    name: "Sarah Chen",
-    title: "Operations Lead",
-    company: "MetaDAO",
-    avatar: images.avatar2
-  }, {
-    quote: "The onboarding process was smooth, and our team loves getting paid in stablecoins. Coinomad's customer support is also exceptional.",
-    name: "Michael Rivera",
-    title: "Founder",
-    company: "CryptoStartup",
-    avatar: images.avatar3
-  }];
+  }]
+
   const partners = [images.partner1, images.partner2, images.partner3, images.partner4, images.partner5, images.partner6];
   return <section className="py-20 bg-black" id="partners">
       <div className="container mx-auto px-6">

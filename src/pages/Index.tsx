@@ -22,10 +22,8 @@ const Index = () => {
         <SupportedAssets />
         <Benefits />
         <PayrollDemo />
-        <Security />
-        <Trust />
         <Faq />
-        <Cta />
+        <Cta/>
       </main>
       <Footer />
     </div>

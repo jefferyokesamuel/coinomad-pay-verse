@@ -1,29 +1,34 @@
 
 import React from 'react';
 import FeatureCard from '../FeatureCard';
-import { Coins, Banknote, CalendarClock } from 'lucide-react';
+import { Coins, Banknote, CalendarClock, Wallet } from 'lucide-react';
 
 const Benefits = () => {
   const features = [
     {
       icon: Coins,
       title: 'Multi-chain Support',
-      description: 'Pay on Ethereum, Solana, Stellar & more. Seamless cross-chain operations.'
+      description: 'Pay Employees on Ethereum, Base, Celo & Polygon. Seamless cross-chain operations with insanely low gas fees'
     },
     {
       icon: Banknote,
-      title: 'No FX/Conversion Fees',
-      description: 'Flat-fee crypto payroll — no hidden costs. Save on international transfers.'
+      title: 'Gasless Smart Accounts',
+      description: 'Every team member gets a smart wallet (ERC-4337) powered by a paymaster. No need to buy ETH or MATIC — fees are paid in stablecoins.'
     },
     {
       icon: CalendarClock,
-      title: 'Automated Monthly Payments',
-      description: 'Set once. Pay every month, stress-free. Reliable scheduling for your team.'
+      title: 'Automated Payroll',
+      description: 'Schedule payments to go out daily, weekly, or monthly. Focus on building, not spreadsheets and reminders.'
+    },
+    {
+      icon: Wallet,
+      title: 'USDC & Stablecoin First',
+      description: 'Send payments in USDC, CUSD, or USDT. No volatility, just fast, stable payroll in your currency of choice.'
     }
   ];
 
   return (
-    <section className="py-20 bg-coinomad-background">
+    <section id="why" className="py-20 bg-coinomad-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Teams Choose Coinomad</h2>

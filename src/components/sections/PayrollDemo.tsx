@@ -17,7 +17,7 @@ const PayrollDemo = () => {
             <p className="text-coinomad-textGray text-lg mb-8">
               Use our calculator to estimate your monthly payroll costs and see how much you could save.
             </p>
-            <Button className="bg-coinomad-primary hover:bg-opacity-90 text-black font-medium neon-glow-primary">
+            <Button className="bg-coinomad-primary hover:bg-coinomad-primary text-black font-medium neon-glow-primary hover:scale-105 transition-transform duration-200">
               View Full Pricing
             </Button>
           </div>
