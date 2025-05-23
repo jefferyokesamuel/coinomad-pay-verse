@@ -5,6 +5,11 @@ import { ArrowRight } from 'lucide-react';
 import { images } from '@/assets/images';
 
 const Hero = () => {
+  const scrollToWaitlist = () => {
+    const waitlistSection = document.getElementById('waitlist');
+    waitlistSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section id="hero" className="hero-gradient min-h-screen flex items-center pt-20">
       <div className="container mx-auto px-6 py-16 text-center">
@@ -17,11 +22,13 @@ const Hero = () => {
         </p>
         
         <div className="mb-16 flex justify-center">
-          <Button className="bg-coinomad-primary hover:bg-coinomad-primary text-black font-medium text-lg px-8 py-6 rounded-lg neon-glow-primary mr-4 hover:scale-105 transition-transform duration-200">
+          <Button 
+            onClick={scrollToWaitlist}
+            className="bg-coinomad-primary hover:bg-coinomad-primary text-black font-medium text-lg px-8 py-6 rounded-lg neon-glow-primary mr-4 hover:scale-105 transition-transform duration-200"
+          >
             Get Started
             <ArrowRight className="ml-2" size={18} />
           </Button>
-        
         </div>
         
         <div className="relative mx-auto max-w-3xl animate-float-slow">
