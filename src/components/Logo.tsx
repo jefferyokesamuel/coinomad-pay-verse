@@ -1,7 +1,8 @@
 import React from 'react';
+import logo from '../assets/logo.png'
 const Logo: React.FC = () => {
   return <div className="flex items-center">
-      <img src="/lovable-uploads/c1267ce2-835b-4019-9983-634d3258f7dc.png" alt="Coinomad Logo" className="h-16" />
+      <img src={logo} alt="Coinomad Logo" className="h-[130px]" />
     </div>;
 };
 export default Logo;
