@@ -66,7 +66,7 @@ const Navbar = () => {
               }}
               className="bg-coinomad-primary hover:bg-coinomad-primary text-black font-medium neon-glow-primary hover:scale-105 transition-transform duration-200"
             >
-              Waitlist
+              Closed Beta
             </Button>
           </div>
           
@@ -134,7 +134,7 @@ const Navbar = () => {
                     }
                   }}
                 >
-                  Waitlist
+                  Closed Beta
                 </Button>
               </li>
             </ul>

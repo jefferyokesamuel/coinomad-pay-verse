@@ -10,10 +10,10 @@ const Cta = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-black">
-            Join the Coinomad Waitlist
+            Join the Coinomad Closed Beta
           </h2>
           <p className="text-black text-opacity-80 text-lg mb-10 md:text-xl">
-            Be among the first to experience simple, reliable crypto payroll.
+            Be among the first to experience simple, reliable stablecoin payroll.
           </p>
           
           <iframe
