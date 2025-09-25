@@ -14,7 +14,7 @@ const Hero = () => {
     <section id="hero" className="hero-gradient min-h-screen flex items-center pt-20">
       <div className="container mx-auto px-6 py-16 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight max-w-4xl mx-auto">
-          Simplifying Crypto Payroll for Global Teams
+          Simplifying Payroll for Global Teams with Stablecoins
         </h1>
         
         <p className="text-coinomad-textGray text-xl md:text-2xl mb-12 max-w-2xl mx-auto">
